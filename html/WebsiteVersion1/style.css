@@ -1,0 +1,334 @@
+/* General */
+
+.container {
+  width: 1335px;
+}
+
+
+
+.header .logo-icon{
+	color:#0D4F8B;
+	float:left;
+	font-size:21px;
+	padding:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:110px;
+}
+
+/* Header */
+
+.header {
+  position:fixed;
+  z-index:100;
+  background-color: #F8F8FF;
+  border-bottom: 1px solid #ddd;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  
+  font-size: 17px;
+  padding: 15px;
+}
+
+
+/* Menu */ 
+
+.header .menu {
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+  margin-right: 35px;
+  font-size:20px;
+}
+
+.menu > li {
+  display: inline;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+.menu a:hover {
+  text-decoration:none;
+  font-weight:bold;
+  color:#191970;
+  text-shadow: 0 0 3px #F5FFFA;
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a:hover {
+  color: #191970;
+  padding: 6px 20px;
+  font-weight: bold;
+  text-shadow: 0 0 3px #F5FFFA;
+}
+
+
+.greenhouse-gas a:hover{
+	color:#191970;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+
+/* Carousel */
+
+.slider {
+
+  position: relative;
+  width: 100%;
+  height: 550px;
+  
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  margin-top:78px;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+
+.slide-copy{
+
+	border-right:1px solid gray;	
+}
+
+.slide-copy h1 {
+  color: rgb(158, 158, 158) ;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+.slide-copy h2 {
+  color: #b7b7b7;
+  
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+}
+
+.slide-copy p {
+  color: #000000;
+  font-family: Arial, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+
+
+
+.slide-copy-home{
+	background-image:url('http://www.designveryeasy.com/images/preview/background,-light-green-texture,-green-bubbles,-graphic-design-texture-19965.jpg');
+	border-right:1px solid gray;
+}
+
+.slide-copy-home h1 {
+  color: #000000;  
+  
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.slide-copy-home p {
+  color: #000000;
+  font-family: Arial, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slide-copy li{
+  color: #000000;
+  font-family: Arial, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+
+.slide-img {
+  text-align: right;
+  padding-right:60px;
+  margin-top:65px;
+}
+
+/* Slide feature */
+
+.slide-feature1 {
+  text-align: justify;
+  background-image: url('http://media.gettyimages.com/photos/smokestacks-with-pollution-picture-id182686229?s=170667a');
+  height: 600px;
+  z-index:10;
+}
+
+.slide-feature2 {
+  text-align: center;
+  background-image: url('http://media.gettyimages.com/photos/group-of-adelie-penguins-jumping-from-ice-pebble-to-ice-pebble-on-a-picture-id453427472');
+  height: 600px;
+  z-index:10;
+}
+
+.slide-feature3 {
+  text-align: justify;
+  background-image: url('https://i.ytimg.com/vi/PuTeP4a0knQ/maxresdefault.jpg');
+  height: 600px;
+  z-index:-10;
+}
+
+
+.slide-feature2 a {
+  display: block;
+  color: #0000CD;;
+  
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 20px;
+}
+
+.slide-feature2 p {
+  display: block;
+  color: #000000;
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.slide-feature2 .read-now a:hover{
+	text-decoration:none;
+	color:#191970;
+	font-weight:bold;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: -100px;
+  z-index:10;
+  position:relative;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+  z-index:10;
+  position:relative;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+  z-index:10;
+  position:relative;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+  z-index:10;
+  position:relative;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+  z-index:10;
+  position:relative;
+}
+
+.slider-dots li.active-dot {
+  color: #000000;
+}
+
+/* App links */
+
+.get-app {
+  list-style: none;
+  padding-bottom: 9px;
+  padding-left: 0px;
+  padding-top: 9px;
+}
+
+.get-app li {
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.get-app img {
+  padding:0px;
+  margin:0px;
+  height: 40px;
+}
+
+.app-section{
+  margin:auto;
+  padding-left:110px;
+  padding-top:146px;	
+}
+
+.home-calculator > p{
+  color:#000000;
+  padding-top:170px;
+  padding-left:100px;
+  font-size:18px;
+
+}
+
+.aboutUsClickHere a:hover{
+	color:#191970;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#designationInContributors{
+	color:gray;
+}

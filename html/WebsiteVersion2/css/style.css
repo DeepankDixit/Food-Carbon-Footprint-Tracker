@@ -1,0 +1,98 @@
+/*
+* {
+	border:1px solid #8bc34a;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	/*color: #747784;
+	font-weight: 300;*/
+}
+
+.text-muted {
+	color:#557188;
+	margin: 30px;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+
+
+.title-logo {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.logo-title-section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-section {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.menu-section > li {
+	padding-left: 18px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.menu-section a:hover {
+  text-decoration:none;
+  font-weight:bold;
+  color:#191970;
+  text-shadow: 0 0 9px #F5FFFA;
+}
+
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a:hover {
+  color: #191970;
+  padding: 6px 20px;
+  font-weight: bold;
+  text-shadow: 0 0 3px #F5FFFA;
+}
+
+.featured-work-elements a:hover {
+	text-decoration:none;
+    font-weight:bold;
+	color:#191970;
+	text-shadow: 0 0 9px #F5FFFA;
+}
+
+#introduction-1 {
+	color: #efd7d7;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+#introduction-1-description {
+
+	color: #efd7d7;
+	margin-top:35px;
+	margin-bottom: 60px;
+	font-size: 1.2em;
+}
+
+.banner-2 {
+	background-image: url('http://footprint.wwf.org.uk/images/bg_breakdown-globe.png');
+	background-color: #882b2b;
+}
